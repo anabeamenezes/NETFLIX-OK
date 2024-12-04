@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul {
+    height: 20px;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+.img-topo {
+    height: 25px;
+    position: fixed;
+    margin-bottom: 5px;
+}
+
+video {
+    width: 100vw;
+    min-height: 90vh;
+
+}
+
+.capa {
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    width: 35%;
+    z-index: 5;
+}
+
+.capa-titulo {
+    color: white;
+    font-size: 50x;
+    margin-bottom: 10px;
+    margin-top: 85px;
+    font-weight: bold;
+}
+
+.botao-som {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 4;
+    top: 680px;
+    right: 60px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.capa-descricao {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.link-assistir {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.link-info {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.356);
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imagem-carrossel {
+    height: 120px;
+
+}
+
+.titulo-carrossel{
+    color: white;
+    font-size: 30px;
+}
+
+
+.modal {
+    display: none;  /* Mostrar NADA */
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-conteudo {
+    background-color: #4d4a4a3b;
+    margin: 30px auto; 
+    padding: 20px;
+    width: 60%;
+    color: white;
+    border-radius: 10px;
+}
